@@ -43,15 +43,16 @@ mais ou ajudar a corrigir alguma coisa.
    subgrupo por agente. No `Fundamentos-Helmintos.apkg` você vai ver o mesmo grupo, mas
    organizado por tópico de biologia geral em vez de por agente.
 
-Cada agente do núcleo tem um cartão para cada eixo da ficha determinística (agente,
-classificação, morfologia, ciclo biológico, transmissão, fatores de risco, patogenia,
-manifestações clínicas, diagnóstico, tratamento, profilaxia — ver
-[docs/material-gerado/parasitologia-especial-determinismo.md](docs/material-gerado/parasitologia-especial-determinismo.md))
-e mais um cartão para cada elo do dicionário de gatilhos — perguntas de "por quê",
-testando a lógica por trás do fato, não só o fato (ver
-[docs/material-gerado/dicionario-gatilhos-parasitologia.md](docs/material-gerado/dicionario-gatilhos-parasitologia.md)).
-Juntos, os dois documentos cobrem o baralho inteiro para aquele agente — nenhum conteúdo
-de um ou de outro fica de fora.
+Os cartões de cada agente são **atômicos**: um fato por cartão, com resposta curta, e a
+pergunta sempre nomeia o agente (e a fase ou o contexto), para que agentes parecidos não se
+confundam. Cobrem os 11 eixos da ficha determinística (agente, classificação, morfologia,
+ciclo biológico, transmissão, fatores de risco, patogenia, manifestações clínicas,
+diagnóstico, tratamento, profilaxia — ver
+[docs/material-gerado/parasitologia-especial-determinismo.md](docs/material-gerado/parasitologia-especial-determinismo.md)),
+e nenhum cartão traz o que a ficha não diz. Cada cartão guarda, escondido, o trecho literal
+da aula ou do documento oficial que sustenta a resposta. Conteúdo que as fontes dizem só do
+grupo aparece como do grupo ("Geo-helmintíases (inclui a tricuríase)"), e minúcias de
+laboratório ficam só na ficha.
 
 Já os cartões de fundamentos não seguem esse molde por agente — a maioria é tipo
 **Conceito** (uma pergunta direta sobre um conceito de biologia geral), com algumas
@@ -68,8 +69,13 @@ qualquer arquivo de texto, ou abrir no Excel/Google Sheets se preferir. Depois d
 editar, para gerar de novo os arquivos `.apkg`:
 
 1. No VSCode, abra o terminal: menu **Terminal → Novo Terminal** (ou o atalho `` Ctrl+` ``).
-2. Digite exatamente `python scripts/montar_deck.py` e aperte Enter.
-3. Aguarde a mensagem terminar — ela mostra quantos cartões foram gerados. Os arquivos
+2. Só na primeira vez: digite `pip install genanki` e aperte Enter (instala a biblioteca
+   que o script usa para montar o baralho).
+3. Se mexeu na planilha do núcleo por agente, digite `python scripts/verificar_trechos.py`
+   e aperte Enter: ele confere se cada cartão continua sustentado pelo trecho da fonte e
+   lista o que não estiver (precisa da pasta `docs/material-base/` preenchida).
+4. Digite exatamente `python scripts/montar_deck.py` e aperte Enter.
+5. Aguarde a mensagem terminar — ela mostra quantos cartões foram gerados. Os arquivos
    `.apkg` dentro de `anki-decks/` são substituídos pelos novos; importe de novo no
    Anki (passo 2 do início desta seção) para ver as mudanças.
 
@@ -91,11 +97,20 @@ repositório** — são arquivos de terceiros, ficam só localmente (ver
 outros dois níveis abaixo não exigem que você tenha os PDFs — o material de
 `docs/material-gerado/` já é autossuficiente.
 
-**`docs/material-gerado/`** — todo o conteúdo dos PDFs reescrito e reorganizado em texto
-corrido, mais claro. Isso não é só "matéria-prima do deck" — é, por si só, material de
-estudo completo. Dá pra estudar só lendo os arquivos `.md` (texto simples com formatação
-leve — abre em qualquer editor, inclusive o próprio VSCode, e fica bem legível), sem
-depender de nenhum deck. Tem três arquivos dentro dessa pasta:
+Onde a aula não trata de um assunto (por exemplo, diagnóstico, tratamento e profilaxia do
+*Schistosoma*, que os slides não cobrem), o material usa **documentos oficiais** —
+Ministério da Saúde, OMS e CDC. Esses documentos também ficam só localmente, em
+`docs/material-base/fontes-oficiais/`, e cada informação tirada deles aparece na ficha e
+no dicionário com uma marca entre colchetes, como `[ESQ-12]`, que aponta o trecho de onde
+veio.
+
+**`docs/material-gerado/`** — o conteúdo dos PDFs (e, onde a aula não trata, dos
+documentos oficiais) reescrito e reorganizado em texto corrido, mais claro. Isso não é
+só "matéria-prima do deck" — é, por si só, material de estudo completo. Dá pra estudar
+só lendo os arquivos `.md` (texto simples com formatação leve — abre em qualquer editor,
+inclusive o próprio VSCode, e fica bem legível), sem depender de nenhum deck. São três
+documentos principais (a subpasta `resumos/` traz ainda versões condensadas deles, em
+tópicos, esquemas e tabelas):
 
 - **Dicionário de gatilhos** — conta cada helmintíase como uma historinha em cadeia: você
   entra em contato com o agente de um jeito → ele entra no corpo por tal porta → percorre
@@ -131,7 +146,7 @@ link por agente, que leva direto pro trecho certo.
 ## Nível 4 — Erros e como colaborar
 
 Como já dito lá em cima, este material é curadoria manual de uma pessoa só — texto ou
-resposta podem estar errados, incompletos ou desatualizados. Se notar isso estudando, vale
+resposta podem estar errados, incompletos ou desatualizados, ainda que a maior parte seja transcrição quase que literal do material utilizado em aula. Se notar isso estudando, vale
 reportar.
 
 ### Como colaborar

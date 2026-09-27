@@ -74,3 +74,6 @@ desktop.ini
 
 # === Hook de commit local (copiado de modelo-recorte-disciplina; versionado só lá) ===
 .githooks/
+
+# === Fontes oficiais baixadas (MS, OMS, CDC) - so para conferencia local, nao redistribuir ===
+docs/material-base/fontes-oficiais/

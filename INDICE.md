@@ -12,7 +12,7 @@ uso.
 Se você só quer entender rápido pra que cada pasta serve, sem entrar em detalhe:
 
 - `docs/material-base/` — material de aula original (PDFs); nunca fica no controle de versão (git).
-- `docs/material-gerado/` — o conteúdo de estudo pronto (fundamentos, dicionário, ficha, planilhas de pergunta).
+- `docs/material-gerado/` — o conteúdo de estudo pronto (fundamentos, dicionário, ficha, planilhas de pergunta); a subpasta `resumos/` guarda os resumos esquemáticos.
 - `docs/proposta-plataforma/` — documentos sobre generalizar este mecanismo pra qualquer disciplina no futuro; não é conteúdo de estudo.
 - `anki-decks/` — os arquivos `.apkg` prontos pra importar no Anki.
 - `scripts/` — o programa que monta os baralhos a partir das planilhas de pergunta.
@@ -20,8 +20,10 @@ Se você só quer entender rápido pra que cada pasta serve, sem entrar em detal
 ## Documentos
 
 - [Biologia fundamental dos helmintos](docs/material-gerado/biologia-fundamental-helmintos.md) — classificação, morfologia, ciclos e geo-helmintos; índice interno com uma seção por tema.
+- [Resumo esquemático — biologia fundamental](docs/material-gerado/resumos/resumo-biologia-fundamental-helmintos.md) — versão condensada em tópicos, esquemas e tabelas; cada bloco tem link para a seção completa do documento.
 - [Dicionário de gatilhos](docs/material-gerado/dicionario-gatilhos-parasitologia.md) — cadeia causal por agente; índice interno com um agente por linha.
 - [Ficha determinística](docs/material-gerado/parasitologia-especial-determinismo.md) — tabela por agente; índice interno com um agente por linha.
+- [Resumo esquemático — parasitologia especial](docs/material-gerado/resumos/resumo-parasitologia-especial-helmintos.md) — versão condensada da ficha e do dicionário; cada agente termina com links para ele nos dois documentos.
 - [Planilha de perguntas — biologia fundamental](docs/material-gerado/perguntas-fundamentos-helmintos.csv)
 - [Planilha de perguntas — núcleo por agente](docs/material-gerado/perguntas-nucleo-dicionarios.csv)
 

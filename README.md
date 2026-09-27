@@ -39,8 +39,10 @@ Requisitos formal) está em
 
 ## Origem do conteúdo
 
-O material de parasitologia original que serviu de base para este núcleo (ASCARIS E
-ASCARIDÍASE, s.d.; GEOHELMINTOS, s.d.; HELMINTOS I, s.d.; ANCILOSTOMÍDEOS, s.d.) está em
+O material de parasitologia original que serve de base para este núcleo (ANCILOSTOMÍDEOS,
+s.d.; ASCARIS E ASCARIDÍASE, s.d.; GEOHELMINTOS, s.d.; HELMINTOS I, s.d.; SCHISTOSOMA
+MANSONI E ESQUISTOSSOMOSE, s.d.; STRONGYLOIDES E ESTRONGILOIDÍASE, s.d.; TRICHURIS E
+TRICURÍASE, s.d.) está em
 [`docs/material-base/`](docs/material-base/) — referências completas na seção
 [Referências](#referências), ao final deste documento.
 
@@ -50,14 +52,24 @@ estão cobertos pela licença deste projeto** (ver [Licença](#licença) abaixo)
 **nunca são versionados nem redistribuídos**: ficam só localmente, fora do controle de
 versão (`.gitignore`). Todo o resto (dicionário de gatilhos, ficha determinística,
 biologia fundamental) foi escrito/reorganizado a partir desses PDFs, mas é conteúdo
-derivado próprio deste repositório, não uma cópia do material original.
+derivado próprio deste repositório, não uma cópia do material original. A exceção são
+citações curtas: cada cartão do núcleo guarda, num campo oculto, a frase literal da aula
+ou do documento oficial que sustenta a resposta, com a fonte — esses trechos não estão
+cobertos pela licença deste projeto (ver [`NOTICE.md`](NOTICE.md)).
 
-Para o documento de biologia fundamental (que inclui a seção de geo-helmintos), a
-curadoria também comparou o resumo publicado contra uma **transcrição OCR integral e
-literal** dos slides originais (`docs/material-base/gerados-ocr/`), usada só como
-conferência para achar lacunas — ela não é conteúdo derivado nosso (é cópia literal do
-material de terceiros), por isso fica no mesmo regime dos PDFs: **não versionada**
-(`.gitignore`) e não redistribuída.
+Onde a aula não cobre um ponto, o material usa **fontes oficiais** (Ministério da Saúde —
+Guia de Vigilância em Saúde, Formulário Terapêutico Nacional, Guia de Bolso, diretrizes da
+esquistossomose —, OMS e CDC), em trechos literais reunidos em bases por agente
+(`docs/material-base/gerados-ocr/*-fontes-oficiais.md`) e citados na ficha e no dicionário
+como `[TRI-nn]`, `[STR-nn]`, `[ESQ-nn]`. Os documentos oficiais baixados ficam em
+`docs/material-base/fontes-oficiais/`, também fora do controle de versão.
+
+Cada PDF tem também uma **transcrição OCR integral e literal** dos seus slides, com o
+mesmo nome do PDF, em `docs/material-base/gerados-ocr/`. Ela é usada só como conferência
+para achar lacunas no material gerado (foi assim, por exemplo, no documento de biologia
+fundamental, que inclui a seção de geo-helmintos) — não é conteúdo derivado nosso (é
+cópia literal do material de terceiros), por isso fica no mesmo regime dos PDFs: **não
+versionada** (`.gitignore`) e não redistribuída.
 
 ## Licença
 
@@ -67,18 +79,20 @@ completo e detalhado em [`NOTICE.md`](NOTICE.md):
 | Parte | Licença | Significa que... |
 |---|---|---|
 | Código (`scripts/*.py`) | [GPL-3.0](LICENSE) | Pode usar/modificar/redistribuir, mas derivados também precisam ficar abertos (copyleft) |
-| Conteúdo (dicionário de gatilhos, ficha determinística, biologia fundamental, `docs/proposta-plataforma/`) | [CC BY-NC-SA 4.0](LICENSE-CONTENT.txt) | Pode usar/adaptar com crédito, **sem fins comerciais**, mantendo a mesma licença |
+| Conteúdo (dicionário de gatilhos, ficha determinística, biologia fundamental, resumos, `docs/proposta-plataforma/`) | [CC BY-NC-SA 4.0](LICENSE-CONTENT.txt) | Pode usar/adaptar com crédito, **sem fins comerciais**, mantendo a mesma licença |
 | PDFs em `docs/material-base/` | Nenhuma — são de terceiros | Não redistribuir; ficam fora do controle de versão (`.gitignore`) |
 
 ## Estrutura do projeto
 
 | Arquivo | O que é |
 |---|---|
-| [`docs/material-gerado/perguntas-nucleo-dicionarios.csv`](docs/material-gerado/perguntas-nucleo-dicionarios.csv) | Fonte da verdade: uma pergunta para cada eixo da ficha determinística e para cada elo do dicionário de gatilhos, por agente |
-| [`docs/material-gerado/perguntas-fundamentos-helmintos.csv`](docs/material-gerado/perguntas-fundamentos-helmintos.csv) | Fonte da verdade: perguntas de biologia fundamental de helmintos, organizadas por tópico |
+| [`docs/material-gerado/perguntas-nucleo-dicionarios.csv`](docs/material-gerado/perguntas-nucleo-dicionarios.csv) | Cartões atômicos por agente (um fato ou um "por quê" por cartão), tirados da ficha determinística e do dicionário de gatilhos, com a origem de cada um (aula ou fonte oficial complementar) |
+| [`docs/material-gerado/perguntas-fundamentos-helmintos.csv`](docs/material-gerado/perguntas-fundamentos-helmintos.csv) | Cartões de biologia fundamental de helmintos e do grupo dos geo-helmintos, organizados por tópico, com a origem de cada um |
 | [`docs/material-gerado/dicionario-gatilhos-parasitologia.md`](docs/material-gerado/dicionario-gatilhos-parasitologia.md) | Cadeia causal didática por agente |
 | [`docs/material-gerado/parasitologia-especial-determinismo.md`](docs/material-gerado/parasitologia-especial-determinismo.md) | Ficha determinística por agente |
 | [`docs/material-gerado/biologia-fundamental-helmintos.md`](docs/material-gerado/biologia-fundamental-helmintos.md) | Base teórica geral: classificação, morfologia, ciclos de vida e epidemiologia dos geo-helmintos |
+| [`docs/material-gerado/resumos/resumo-biologia-fundamental-helmintos.md`](docs/material-gerado/resumos/resumo-biologia-fundamental-helmintos.md) | Resumo esquemático da biologia fundamental (tópicos, esquemas e tabelas), com link de cada bloco para a seção completa do documento |
+| [`docs/material-gerado/resumos/resumo-parasitologia-especial-helmintos.md`](docs/material-gerado/resumos/resumo-parasitologia-especial-helmintos.md) | Resumo esquemático dos agentes (versão condensada da ficha determinística e do dicionário de gatilhos), com links para cada agente nos dois documentos |
 | [`docs/proposta-plataforma/01-visao-geral.md`](docs/proposta-plataforma/01-visao-geral.md) | Visão geral da proposta de generalizar este mecanismo para qualquer disciplina (plataforma/software futuro) |
 | [`INDICE.md`](INDICE.md) | Índice com link direto para qualquer documento do projeto |
 | [`MANUAL.md`](MANUAL.md) | Guia rápido e não técnico de como usar o material e como colaborar |
@@ -88,7 +102,8 @@ completo e detalhado em [`NOTICE.md`](NOTICE.md):
 | [`.gitignore`](.gitignore) | Exclui os PDFs de terceiros, caches e artefatos temporários do controle de versão |
 | [`anki-decks/Nucleo-Dicionarios.apkg`](anki-decks/Nucleo-Dicionarios.apkg) | Deck pronto para importar no Anki, por agente |
 | [`anki-decks/Fundamentos-Helmintos.apkg`](anki-decks/Fundamentos-Helmintos.apkg) | Deck pronto para importar no Anki, biologia fundamental |
-| [`scripts/montar_deck.py`](scripts/montar_deck.py) | Gera um `.apkg` para cada CSV `perguntas-*.csv` encontrado em `docs/material-gerado/` — agnóstico de disciplina, uma disciplina nova não exige mudar o script |
+| [`scripts/montar_deck.py`](scripts/montar_deck.py) | Gera um `.apkg` para cada CSV `perguntas-*.csv` encontrado em `docs/material-gerado/` — agnóstico de matéria, sem nada fixado no código; contrato do CSV e uso em [`scripts/README.md`](scripts/README.md) |
+| [`scripts/verificar_trechos.py`](scripts/verificar_trechos.py) | Confere se cada cartão e cada citação `[ID]` dos documentos estão sustentados por um trecho literal da base de transcrições — agnóstico de matéria; uso em [`scripts/README.md`](scripts/README.md) |
 
 Este projeto também usa um hook de commit local (`.githooks/`, copiado do projeto-modelo
 `modelo-recorte-disciplina`) que verifica o formato da mensagem de commit — título mais
@@ -106,10 +121,11 @@ ativá-la de novo.
 2. Para consultar rapidamente um agente específico: abra o [`INDICE.md`](INDICE.md),
    clique no documento que quer (dicionário ou ficha) e use o índice interno dele, logo
    no topo, para ir direto ao agente.
-3. Para editar conteúdo: mude o `.md` correspondente e o CSV derivado dele em
-   `docs/material-gerado/`, depois rode `python scripts/montar_deck.py` para regenerar
-   os `.apkg` — o script é agnóstico de disciplina e descobre sozinho qualquer CSV
-   `perguntas-*.csv` novo, sem precisar editá-lo.
+3. Para editar conteúdo: mude o `.md` correspondente e os cartões no CSV em
+   `docs/material-gerado/` (o CSV é a fonte dos cartões), rode
+   `python scripts/verificar_trechos.py` (cada cartão tem de ter trecho literal da fonte) e
+   depois `python scripts/montar_deck.py` para regenerar os `.apkg` — os dois scripts são
+   agnósticos de disciplina e descobrem sozinhos qualquer CSV `perguntas-*.csv` novo.
 
 ## Ver também
 
@@ -124,7 +140,8 @@ editora e data desconhecidos:
 ANCILOSTOMÍDEOS. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado.
 Localização: `docs/material-base/ANCILOSTOMIDEOS.pdf` (arquivo de terceiros, não
 versionado neste repositório; o arquivo original recebia o nome `STRONGILOIDES.pdf`,
-renomeado por não conter nenhum conteúdo sobre *Strongyloides*).
+renomeado por não conter nenhum conteúdo sobre *Strongyloides* — os slides de
+*Strongyloides* são os de `ESTRONGILOIDES.pdf`, abaixo).
 
 ASCARIS E ASCARIDÍASE. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado.
 Localização: `docs/material-base/ASCARIS_E_ASCARIDIASE.pdf` (arquivo de terceiros, não
@@ -137,6 +154,20 @@ repositório).
 HELMINTOS I. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado. Localização:
 `docs/material-base/HELMINTOS_I.pdf` (arquivo de terceiros, não versionado neste
 repositório).
+
+SCHISTOSOMA MANSONI E ESQUISTOSSOMOSE. [S.l.: s.n., s.d.]. Material de aula (slides), não
+publicado. Localização: `docs/material-base/ESQUISTOSSOMO.pdf` (arquivo de terceiros, não
+versionado neste repositório; 31 slides, que terminam na forma hepatoesplênica — não
+inclui diagnóstico, tratamento nem profilaxia).
+
+STRONGYLOIDES E ESTRONGILOIDÍASE. [S.l.: s.n., s.d.]. Material de aula (slides), não
+publicado. Localização: `docs/material-base/ESTRONGILOIDES.pdf` (arquivo de terceiros, não
+versionado neste repositório; só 3 slides: capa, taxonomia/gerações e morfologia das
+formas de vida livre).
+
+TRICHURIS E TRICURÍASE. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado.
+Localização: `docs/material-base/TRICHURIS.pdf` (arquivo de terceiros, não versionado
+neste repositório; só 3 slides: capa, taxonomia/transmissão e epidemiologia).
 
 ---
 

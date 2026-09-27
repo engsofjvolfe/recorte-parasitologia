@@ -6,12 +6,13 @@ coisa daqui. Se não compreender alguma coisa, busque ajuda com um agente de IA 
 
 ## 1. Código (scripts Python) — GPL-3.0
 
-O script Python deste repositório —
-[`scripts/montar_deck.py`](scripts/montar_deck.py) — está sob a
+Os scripts Python deste repositório —
+[`scripts/montar_deck.py`](scripts/montar_deck.py) e
+[`scripts/verificar_trechos.py`](scripts/verificar_trechos.py) — estão sob a
 **GNU General Public License v3.0**. Texto completo em [`LICENSE`](LICENSE). Resumindo:
 você pode usar, estudar, modificar e redistribuir o código livremente, mas qualquer
 trabalho derivado dele também precisa continuar sob GPL-3.0 (copyleft) e vir com o
-código-fonte disponível. O script é agnóstico de disciplina: descobre os CSVs pelo
+código-fonte disponível. Os scripts são agnósticos de disciplina: descobrem os CSVs pelo
 próprio schema, sem nome de disciplina fixado no código.
 
 ## 2. Conteúdo gerado — CC BY-NC-SA 4.0
@@ -33,8 +34,10 @@ mantenha qualquer versão adaptada sob a mesma licença.
 
 ## 3. Material de terceiros — fora de qualquer licença deste projeto
 
-Os PDFs em [`docs/material-base/`](docs/material-base/) (`ASCARIS_E_ASCARIDIASE.pdf`,
-`GEOHELMINTOS.pdf`, `HELMINTOS_I.pdf`, `ANCILOSTOMIDEOS.pdf`) - não versionados e não aparecem aqui, nem mesmo sua pasta -, **não são cobertos por
+Os PDFs em [`docs/material-base/`](docs/material-base/) (`ANCILOSTOMIDEOS.pdf`,
+`ASCARIS_E_ASCARIDIASE.pdf`, `ESQUISTOSSOMO.pdf`, `ESTRONGILOIDES.pdf`, `GEOHELMINTOS.pdf`,
+`HELMINTOS_I.pdf`, `HIMENOLEPIASE.pdf`, `TENIASE-CISTICERCOSE.pdf`, `TRICHURIS.pdf`) e suas transcrições OCR literais em
+`docs/material-base/gerados-ocr/`, e os documentos oficiais baixados em `docs/material-base/fontes-oficiais/` (Ministério da Saúde, OMS, CDC, bulas) - não versionados e não aparecem aqui, nem mesmo suas pastas -, **não são cobertos por
 nenhuma das licenças acima**. São material de aula de uma disciplina de graduação de
 Parasitologia — quem mantém este repositório não é o autor desses PDFs e não tem
 autorização para relicenciá-los. Por isso:
@@ -43,6 +46,15 @@ autorização para relicenciá-los. Por isso:
   ou redistribuída** junto com o restante do projeto — fica só localmente.
 - Se você recebeu este projeto com essa pasta preenchida, trate como material pessoal de
   estudo, não como parte do pacote de código aberto.
+
+**Citações curtas nos cartões.** Cada cartão do núcleo por agente
+([`perguntas-nucleo-dicionarios.csv`](docs/material-gerado/perguntas-nucleo-dicionarios.csv)
+e o deck `anki-decks/Nucleo-Dicionarios.apkg`) guarda, num campo oculto (`_trecho`), a
+frase literal da aula ou do documento oficial que sustenta a resposta, com a indicação
+da fonte (`_fonte`). São citações curtas, para fins de estudo e de conferência, com
+base no art. 46, III, da Lei 9.610/1998. Esses trechos continuam sendo de seus autores
+e **não estão cobertos pelas licenças deste projeto** (item 2 vale para o resto do CSV e
+do deck, não para eles).
 
 ## Como creditar
 

@@ -24,15 +24,25 @@ Platyhelminthes e Nematoda não são filos irmãos — vêm de ramos diferentes 
 
 ## 2. Organização Corporal: Acelomados, Pseudocelomados e Celomados
 
-Animais triblásticos (com três folhetos germinativos — ectoderme, mesoderme e endoderme) se dividem em três padrões de organização da cavidade corporal, o critério estrutural que mais separa Platyhelminthes de Nematoda:
+Platelmintos e nematódeos são **triblásticos**: o embrião tem três camadas (folhetos), e cada uma vira uma parte do corpo:
 
-| Padrão | Cavidade corporal | Revestimento do intestino | Exemplo |
+- **ectoderme** (camada de fora) → pele
+- **mesoderme** (camada do meio) → músculos e gônadas
+- **endoderme** (camada de dentro) → intestino
+
+Visto em corte, o corpo é um tubo dentro de outro: por fora, a pele (ectoderme); no centro, o intestino (endoderme); entre os dois, a mesoderme. **Os três grupos têm mesoderme — o que muda é onde ela fica**, e se sobra ou não uma cavidade (celoma) com líquido entre a pele e o intestino.
+
+| Padrão | Onde fica a mesoderme | Cavidade entre a pele e o intestino | Exemplo |
 | :--- | :--- | :--- | :--- |
-| **Acelomado** | Ausente — a mesoderme preenche todo o espaço entre a epiderme e o intestino, como uma camada maciça | Só endoderme, sem mesoderme ao redor | Platelmintos |
-| **Pseudocelomado** | Presente, preenchida por líquido, mas revestida por mesoderme apenas do lado de fora | Só endoderme, sem mesoderme ao redor | Nematódeos |
-| **Celomado** | Presente, revestida por mesoderme tanto por fora quanto ao redor do intestino | Endoderme com camada muscular de mesoderme completa | Anelídeos |
+| **Acelomado** (*a-* = sem celoma) | Ocupa todo o espaço entre a ectoderme e a endoderme | Não existe: o corpo é maciço | Platelmintos |
+| **Pseudocelomado** (*pseudo-* = falso) | Aderida só à ectoderme; o intestino (endoderme) fica sem mesoderme em volta | Existe (pseudoceloma), cheia de líquido, entre a mesoderme e o intestino | Nematódeos |
+| **Celomado** (celoma verdadeiro) | Aderida à ectoderme e também à endoderme, formando duas camadas | Existe (celoma), cheia de líquido, entre as duas camadas de mesoderme | Anelídeos (minhoca) |
 
-Um platelminto de vida livre, como a planária, ilustra a organização acelomada: um gânglio cerebral anterior ligado a ocelos e a um lobo sensorial lateral, dois cordões nervosos ventrolaterais, uma faringe muscular central e uma cavidade gastrovascular (arquêntero) ramificada em três braços (um anterior, dois posteriores) que funciona ao mesmo tempo como intestino — sem celoma e sem sistema circulatório para distribuir nutrientes além dela.
+A cavidade do nematódeo é chamada de "falsa" porque só um dos lados dela tem mesoderme; o celoma verdadeiro tem mesoderme dos dois lados.
+
+**Por que isso importa:** no nematódeo, o intestino e o sistema reprodutor ficam mergulhados no líquido do pseudoceloma. Esse líquido dá equilíbrio hidrostático ao corpo e faz a distribuição de substâncias, já que o nematódeo não tem sistema circulatório (ver seção 4). No platelminto não existe esse espaço: músculos e gônadas ficam no próprio tecido maciço.
+
+**Exemplo — planária** (platelminto de vida livre): o único espaço dentro dela é o intestino, que começa na boca, na ponta de uma faringe no meio do corpo, e se divide em três ramos — um para a frente e dois para trás. Todo o resto é tecido maciço.
 
 ---
 
@@ -46,7 +56,7 @@ Um platelminto de vida livre, como a planária, ilustra a organização acelomad
 - Sistema excretor por **células-flama** (solenócitos): uma célula ciliada em forma de sino cujo tufo de cílios bate ativamente para propelir o líquido de excreção metabólica através de um túbulo coletor até poros excretores.
 - Sistema digestivo incompleto (quando presente).
 - Sistema reprodutor **hermafrodita**.
-- Ciclo de vida tipicamente **heteroxeno** (mais de um hospedeiro). No modelo do gênero *Schistosoma*: o hospedeiro definitivo elimina ovos do parasita nas fezes próximo à água; o ovo eclode na água liberando o miracídio, que infecta um caramujo (hospedeiro intermediário); dentro do caramujo ocorre reprodução assexuada, com liberação contínua de larvas infestantes de cauda bifurcada (cercárias) na água; essas cercárias penetram ativamente a pele de um novo hospedeiro definitivo que entra descalço na água, completando o ciclo.
+- Ciclo de vida tipicamente **heteroxeno** (mais de um hospedeiro).
 
 ### Classe Trematoda
 
@@ -71,7 +81,7 @@ Espécies de importância médica a estudar: ***Taenia solium***, ***Taenia sagi
 - Tubo digestivo completo (boca a ânus), alojado dentro do pseudoceloma.
 - Sistema reprodutor também envolvido pelo pseudoceloma.
 - **Dióicos** (sexos separados), com a fêmea maior que o macho.
-- Parede corporal formada por uma **cutícula** externa acelular (de quitina) sobre uma epiderme (hipoderme) de células musculares sinciciais, que se projeta internamente formando **cristas laterais** — dividindo a musculatura longitudinal em quatro quadrantes. Cada célula muscular tem uma porção contrátil basal voltada para a hipoderme e uma porção citoplasmática livre (sarcoplasma) voltada para o pseudoceloma. A cutícula protege contra agentes externos e funciona como exoesqueleto de suporte para os músculos (locomoção) e para a excreção. O líquido pseudocelomático tem função hidrostática e é importante para o transporte de oxi-hemoglobina — em corte histológico de *Ascaris lumbricoides*, usado como modelo geral de nematódeo, a cutícula mede cerca de 100 micra de espessura e as células musculares têm em média 300 micra; num corte do ramo uterino da mesma espécie, o ramo mede cerca de 900 micra de diâmetro e aparece repleto de ovos férteis em estágio inicial de segmentação, ao lado da crista lateral e de uma estrutura menor correspondente ao oviduto.
+- Parede corporal formada por uma **cutícula** externa acelular (de quitina) sobre uma epiderme (hipoderme) de células musculares sinciciais, que se projeta internamente formando **cristas laterais** — dividindo a musculatura longitudinal em quatro quadrantes. Cada célula muscular tem uma porção contrátil basal voltada para a hipoderme e uma porção citoplasmática livre (sarcoplasma) voltada para o pseudoceloma. A cutícula protege contra agentes externos e funciona como exoesqueleto de suporte para os músculos (locomoção) e para a excreção. O líquido pseudocelomático tem função hidrostática e é importante para o transporte de oxi-hemoglobina — em corte histológico de *Ascaris lumbricoides*, usado como exemplo para explicar nematódeo, a cutícula mede cerca de 100 micra de espessura e as células musculares têm em média 300 micra; num corte do ramo uterino da mesma espécie, o ramo mede cerca de 900 micra de diâmetro e aparece repleto de ovos férteis em estágio inicial de segmentação, ao lado da crista lateral e de uma estrutura menor correspondente ao oviduto.
 
 ### Sistemas Orgânicos
 
@@ -96,14 +106,16 @@ O sistema reprodutor feminino admite três padrões, cada um associado a uma via
 | Padrão | Mecanismo | Espécies representativas |
 | :--- | :--- | :--- |
 | **Ovíparas** (ciclo monoxeno) | Eliminam ovos ainda no estágio não segmentado; a larva se desenvolve dentro do ovo no meio externo; transmissão pela ingestão do ovo | *Ascaris lumbricoides*, *Trichuris trichiura*, *Enterobius vermicularis*, *Toxocara sp.* |
-| **Ovovivíparas** (ciclo monoxeno) | Eliminam ovos já em estágio segmentado; as larvas eclodem e se desenvolvem no meio externo (solo); transmissão pela penetração ativa da larva na pele ou mucosa | *Strongyloides stercoralis*, *Ancylostoma duodenale*, *Necator americanus* |
-| **Vivíparas** (ciclo heteroxeno) | O hospedeiro definitivo abriga os vermes adultos, que liberam larvas (microfilárias) diretamente no sangue; um hospedeiro intermediário é necessário para o desenvolvimento larval; transmissão por penetração passiva da larva na pele | *Wuchereria bancrofti*, *Onchocerca volvulus* |
+| **Ovovivíparas** (ciclo monoxeno) | Eliminam ovos já em estágio segmentado; as larvas eclodem e se desenvolvem no meio externo (solo); transmissão pela penetração da larva na pele ou mucosa | *Strongyloides stercoralis*, *Ancylostoma duodenale*, *Necator americanus* |
+| **Vivíparas** (ciclo heteroxeno) | O hospedeiro definitivo abriga os vermes adultos no sistema linfático, e as fêmeas produzem larvas (microfilárias) que migram para o sangue; um hospedeiro intermediário é necessário para o desenvolvimento larval; transmissão por penetração passiva da larva na pele | *Wuchereria bancrofti*, *Onchocerca volvulus* |
 
-O ciclo viviparo/heteroxeno tem a filariose por *Wuchereria bancrofti* como modelo: vermes adultos (macho e fêmea) vivem enrolados nos vasos linfáticos e linfonodos do hospedeiro humano definitivo, causando obstrução linfática crônica; as fêmeas liberam microfilárias na circulação sanguínea com periodicidade noturna; um mosquito do gênero *Culex* ingere as microfilárias ao picar o hospedeiro infectado; no estômago e na musculatura torácica do mosquito, as microfilárias se diferenciam de larva L1 para L2 e depois para a **larva L3 filariforme infectante**, que migra até a probóscide; ao picar um novo hospedeiro, o mosquito deposita a L3 sobre a pele lesada pela picada (penetração passiva); as larvas então penetram a circulação linfática e, após vários meses e mudas finais, atingem a maturidade sexual.
+O ciclo vivíparo/heteroxeno tem a filariose por *Wuchereria bancrofti* serve como exemplo: os vermes adultos vivem nos linfonodos e vasos linfáticos do hospedeiro humano definitivo; as fêmeas adultas, presentes no sistema linfático, produzem microfilárias que migram para o sangue; o mosquito ingere as microfilárias quando se alimenta do sangue de uma pessoa infectada; dentro do mosquito, as microfilárias se transformam em larvas — primeiro larva 1 (L1, larva de primeiro estádio), que muda para larva 2 (L2) e depois para **larva 3 (L3), a larva infectante**; no momento do repasto sanguíneo, o mosquito deposita a L3 na pele de um novo hospedeiro (penetração passiva); as larvas L3 migram para o sistema linfático, onde crescem e atingem a maturidade sexual.
 
-### Desenvolvimento Larval
+### Desenvolvimento Larval (estádios)
 
-O desenvolvimento passa por um estágio embrionário seguido de um estágio larval (aeróbico facultativo, em que as larvas são menores e sexualmente imaturas), até a forma adulta, por meio de quatro mudas (ecdises) sucessivas da cutícula:
+Ovo, Larva, Adulto são considerados estágios do desenvolvimento; as mudas da larva sao estádios do desenvolvimento.
+
+O desenvolvimento passa por um estágio embrionário seguido de um estágio larval, até a forma adulta, por meio de quatro mudas (ecdises) sucessivas da cutícula:
 
 **Ovo** (com a larva L1 se desenvolvendo dentro) → eclosão → **Larva L1** → 1ª muda → **Larva L2** → 2ª muda → **Larva L3** (frequentemente a forma **filariforme e infectante**) → 3ª muda → **Larva L4** → 4ª muda → **Adulto** (macho, com extremidade posterior curvada e espículos; fêmea, de porte maior e extremidade reta).
 
@@ -111,13 +123,13 @@ O desenvolvimento passa por um estágio embrionário seguido de um estágio larv
 
 ## 5. Geo-helmintos: Epidemiologia do Grupo
 
-**Geo-helmintos** são nematódeos em que a maturação dos ovos e larvas até a forma infectante ocorre no solo. O grupo reúne *Ascaris lumbricoides* (ascaridíase), os **Ancilostomídeos** (*Ancylostoma* e *Necator* — ancilostomíase), *Strongyloides stercoralis* (estrongiloidíase), *Trichuris trichiura* (tricuríase) e a **larva migrans** (*Ancylostoma sp.* / *Toxocara sp.*).
+**Geo-helmintos** são nematódeos em que a maturação dos ovos e larvas até a forma infectante ocorre no solo. O grupo reúne *Ascaris lumbricoides* (ascaridíase), os **Ancilostomídeos** (*Ancylostoma* e *Necator* — ancilostomíase), *Strongyloides stercoralis* (estrongiloidíase), *Trichuris trichiura* (tricuríase) e a **larva migrans** (*Ancylostoma sp.* / *Toxocara sp.*) - esta última nao será abordada nestes conteúdos.
 
 Classificados entre as doenças **negligenciadas**, estão associados a clima, pobreza e saneamento precário, concentram-se em países tropicais e subtropicais, e sua apresentação clínica costuma se manifestar quando a carga parasitária é alta. Estimativa de **12.000 a 135.000 mortes por geo-helmintos por ano**.
 
 ### Distribuição no Brasil
 
-Com base em mapeamento geoespacial (Scholte et al., *Geospatial Health*, 8(1), 2013, p. 97–110), a prevalência prevista de infecção por geo-helmintos no Brasil varia por região e por parasito — os únicos três com dado cartográfico apresentado no material são *Ascaris*, *Trichuris* e os ancilostomídeos:
+Com base em mapeamento geoespacial (Scholte et al., *Geospatial Health*, 8(1), 2013, p. 97–110), a prevalência prevista de infecção por geo-helmintos no Brasil varia por região e por parasito — com dado cartográfico apresentado no material são *Ascaris*, *Trichuris* e os ancilostomídeos:
 
 | Parasito | Faixa de alta prevalência | Onde se concentra | Faixa de baixa prevalência |
 | :--- | :--- | :--- | :--- |
@@ -127,7 +139,7 @@ Com base em mapeamento geoespacial (Scholte et al., *Geospatial Health*, 8(1), 2
 
 ### Sequelas Crônicas e Janela de Impacto por Idade
 
-A infecção crônica por geo-helmintos altera o crescimento e o intelecto, a cognição e o desempenho escolar (Crompton & Nesheim, *Annu. Rev. Nutr.*, 22, 2002, p. 35–59). O período de vida em que cada parasito impõe maior carga difere:
+A infecção crônica por geo-helmintos afeta e altera crescimento, intelecto, cognição e desempenho escolar. O período de vida em que cada parasito impõe maior carga difere:
 
 | Parasito | Janela de maior impacto | Sequela principal |
 | :--- | :--- | :--- |
