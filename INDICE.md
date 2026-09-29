@@ -4,7 +4,8 @@ Clique em qualquer link abaixo para ir direto ao documento certo. Cada documento
 conteúdo tem seu próprio índice interno, no topo do arquivo, com o link direto pro
 agente ou seção específica de dentro dele — não repetido aqui. Veja o
 [README.md](README.md) para contexto geral e o aviso sobre a origem/limitações do
-material, ou o [MANUAL.md](MANUAL.md) se você só quer um guia rápido e não técnico de
+material (a seção [Situação atual](README.md#situação-atual--o-que-ainda-falta) lista o
+que ainda falta), ou o [MANUAL.md](MANUAL.md) se você só quer um guia rápido e não técnico de
 uso.
 
 ## Mapa de pastas (o que tem onde)

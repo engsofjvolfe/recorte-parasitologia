@@ -63,12 +63,40 @@ campos ocultos, o documento e o trecho literal que sustentam a resposta. Os docu
 oficiais baixados ficam em `docs/material-base/fontes-oficiais/`, também fora do controle
 de versão; as referências deles estão em [`docs/FONTES.md`](docs/FONTES.md).
 
-Cada PDF tem também uma **transcrição OCR integral e literal** dos seus slides, com o
-mesmo nome do PDF, em `docs/material-base/gerados-ocr/`. Ela é usada só como conferência
-para achar lacunas no material gerado (foi assim, por exemplo, no documento de biologia
-fundamental, que inclui a seção de geo-helmintos) — não é conteúdo derivado nosso (é
-cópia literal do material de terceiros), por isso fica no mesmo regime dos PDFs: **não
-versionada** (`.gitignore`) e não redistribuída.
+Cada PDF tem também uma **transcrição literal** dos seus slides, com o mesmo nome do PDF,
+em `docs/material-base/gerados-ocr/`: só o texto que está escrito em cada slide, inclusive
+o de dentro das figuras, sem descrição de imagem. É contra ela que se confere, letra por
+letra, a frase escondida de cada cartão tirado das aulas (o item inteiro do slide, com o
+rótulo que dá o contexto). Não é conteúdo derivado nosso (é cópia literal do material de
+terceiros), por isso fica no mesmo regime dos PDFs: **não versionada** (`.gitignore`) e
+não redistribuída.
+
+## Situação atual — o que ainda falta
+
+O material está em uso, mas estas partes ainda não foram fechadas:
+
+- **66 cartões de *Ascaris* e de ancilostomídeos estão marcados** com "fonte ainda não
+  sustenta totalmente — precisa verificação" (na linha de cima da pergunta). A frase da
+  aula que eles tinham como prova vinha de descrições de imagem escritas nas transcrições
+  antigas, e não do texto dos slides. Em 26 deles, a resposta depende de olhar o desenho
+  do slide (forma, posição, seta, mapa); nos outros 40, o slide não diz o que a resposta
+  afirma, e o fato precisa de fonte oficial — ou sai. Os mesmos fatos aparecem na ficha
+  determinística, no dicionário de gatilhos e no resumo desses dois agentes, ainda sem
+  marca.
+- **As transcrições das nove aulas ainda esperam a conferência humana** contra a imagem
+  de cada slide (o script confere os cartões contra a transcrição, mas não lê a imagem).
+- **O material da *Taenia* não teve o fechamento definitivo**: a base de trechos oficiais
+  dela ainda deixa de fora frases das fontes que devem entrar, e a tarefa não passou pela
+  verificação final.
+- **O campo escondido de cada cartão ainda não traz a citação completa** (autor, ano e
+  página, pela ABNT) — traz o arquivo e o local do trecho. O número de página impressa
+  também ainda não é conferido por script.
+- **Os scripts de conferência** (trechos das bases contra os documentos originais, provas
+  dos cartões contra as transcrições, regras de rótulo e de número) ainda ficam fora do
+  controle de versão e usam os caminhos de pasta deste projeto; vão para `scripts/`, sem
+  nada fixo de projeto, antes de serem publicados.
+- Falta um **documento para leigos** explicando o processo inteiro, da aula em PDF ao
+  cartão, e o que é conferido em cada passo.
 
 ## Licença
 

@@ -53,11 +53,14 @@ PREFIXO_PADRAO = "perguntas-"
 def normaliza(texto):
     """Tira marcadores de citacao e de bloco de codigo do markdown e junta espacos, sem
     mexer em nenhuma palavra nem pontuacao."""
-    linhas = []
+    linhas, dentro = [], False
     for linha in texto.split("\n"):
-        linha = re.sub(r"^\s*>\s?", "", linha)
         if linha.strip().startswith("```"):
+            dentro = not dentro
             continue
+        # ">" no comeco da linha so e marca de citacao fora de bloco de codigo; dentro, e texto ("> 20.000")
+        if not dentro:
+            linha = re.sub(r"^\s*>\s?", "", linha)
         linhas.append(linha)
     return re.sub(r"\s+", " ", " ".join(linhas)).strip()
 

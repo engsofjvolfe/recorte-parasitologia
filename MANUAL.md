@@ -54,6 +54,14 @@ da aula ou do documento oficial que sustenta a resposta. Conteúdo que as fontes
 grupo aparece como do grupo ("Geo-helmintíases (inclui a tricuríase)"), e minúcias de
 laboratório ficam só na ficha.
 
+**Atenção a uma marca:** alguns cartões de *Ascaris* e de ancilostomídeos (66, por
+enquanto) trazem, na linha de cima da pergunta, o aviso **"fonte ainda não sustenta
+totalmente — precisa verificação"**. Quer dizer que a aula não confirma, pelo texto dos
+slides, tudo o que a resposta diz: ou depende de olhar o desenho do slide, ou o fato não
+está no slide e ainda precisa ser conferido numa fonte oficial. Estude esses cartões com
+cautela; o aviso sai quando a verificação for feita (ver a seção
+[Situação atual](README.md#situação-atual--o-que-ainda-falta) do README).
+
 Já os cartões de fundamentos não seguem esse molde por agente — a maioria é tipo
 **Conceito** (uma pergunta direta sobre um conceito de biologia geral), com algumas
 **Vinheta (estrutura)** também, descrevendo um achado ou cenário genérico (não um caso
