@@ -100,9 +100,9 @@ outros dois níveis abaixo não exigem que você tenha os PDFs — o material de
 Onde a aula não trata de um assunto (por exemplo, diagnóstico, tratamento e profilaxia do
 *Schistosoma*, que os slides não cobrem), o material usa **documentos oficiais** —
 Ministério da Saúde, OMS e CDC. Esses documentos também ficam só localmente, em
-`docs/material-base/fontes-oficiais/`, e cada informação tirada deles aparece na ficha e
-no dicionário com uma marca entre colchetes, como `[ESQ-12]`, que aponta o trecho de onde
-veio.
+`docs/material-base/fontes-oficiais/`, e cada cartão guarda, em campos ocultos, o
+documento e o trecho literal de onde veio a resposta. A lista completa das fontes — as
+aulas e os documentos oficiais —, em ABNT, está em [docs/FONTES.md](docs/FONTES.md).
 
 **`docs/material-gerado/`** — o conteúdo dos PDFs (e, onde a aula não trata, dos
 documentos oficiais) reescrito e reorganizado em texto corrido, mais claro. Isso não é

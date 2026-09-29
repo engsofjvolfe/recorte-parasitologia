@@ -26,6 +26,7 @@ Se você só quer entender rápido pra que cada pasta serve, sem entrar em detal
 - [Resumo esquemático — parasitologia especial](docs/material-gerado/resumos/resumo-parasitologia-especial-helmintos.md) — versão condensada da ficha e do dicionário; cada agente termina com links para ele nos dois documentos.
 - [Planilha de perguntas — biologia fundamental](docs/material-gerado/perguntas-fundamentos-helmintos.csv)
 - [Planilha de perguntas — núcleo por agente](docs/material-gerado/perguntas-nucleo-dicionarios.csv)
+- [Fontes](docs/FONTES.md) — referências em ABNT das nove aulas e dos documentos oficiais usados, com a data de consulta de cada um.
 
 ---
 

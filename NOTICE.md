@@ -42,6 +42,9 @@ nenhuma das licenças acima**. São material de aula de uma disciplina de gradua
 Parasitologia — quem mantém este repositório não é o autor desses PDFs e não tem
 autorização para relicenciá-los. Por isso:
 
+As referências desses materiais, em ABNT, estão em [`docs/FONTES.md`](docs/FONTES.md) —
+esse arquivo é conteúdo deste projeto e segue a regra geral do item 2.
+
 - Essa pasta está no [`.gitignore`](.gitignore) e **nunca deve ser versionada, publicada
   ou redistribuída** junto com o restante do projeto — fica só localmente.
 - Se você recebeu este projeto com essa pasta preenchida, trate como material pessoal de

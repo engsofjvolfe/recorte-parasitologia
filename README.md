@@ -39,12 +39,10 @@ Requisitos formal) está em
 
 ## Origem do conteúdo
 
-O material de parasitologia original que serve de base para este núcleo (ANCILOSTOMÍDEOS,
-s.d.; ASCARIS E ASCARIDÍASE, s.d.; GEOHELMINTOS, s.d.; HELMINTOS I, s.d.; SCHISTOSOMA
-MANSONI E ESQUISTOSSOMOSE, s.d.; STRONGYLOIDES E ESTRONGILOIDÍASE, s.d.; TRICHURIS E
-TRICURÍASE, s.d.) está em
-[`docs/material-base/`](docs/material-base/) — referências completas na seção
-[Referências](#referências), ao final deste documento.
+O material de parasitologia original que serve de base para este núcleo — nove aulas em
+PDF, de helmintos em geral a teníase e cisticercose — está em
+[`docs/material-base/`](docs/material-base/). As referências completas, em ABNT, com a
+data de consulta de cada fonte, estão em [`docs/FONTES.md`](docs/FONTES.md).
 
 Esses PDFs são material de aula de uma universidade de Minas Gerais, obtidos por meio de
 um aluno da disciplina — **não foram produzidos por quem mantém este repositório e não
@@ -59,10 +57,11 @@ cobertos pela licença deste projeto (ver [`NOTICE.md`](NOTICE.md)).
 
 Onde a aula não cobre um ponto, o material usa **fontes oficiais** (Ministério da Saúde —
 Guia de Vigilância em Saúde, Formulário Terapêutico Nacional, Guia de Bolso, diretrizes da
-esquistossomose —, OMS e CDC), em trechos literais reunidos em bases por agente
-(`docs/material-base/gerados-ocr/*-fontes-oficiais.md`) e citados na ficha e no dicionário
-como `[TRI-nn]`, `[STR-nn]`, `[ESQ-nn]`. Os documentos oficiais baixados ficam em
-`docs/material-base/fontes-oficiais/`, também fora do controle de versão.
+esquistossomose —, OMS, CDC e bulas americanas), em trechos literais reunidos em bases por
+agente (`docs/material-base/gerados-ocr/*-fontes-oficiais.md`); cada cartão guarda, em
+campos ocultos, o documento e o trecho literal que sustentam a resposta. Os documentos
+oficiais baixados ficam em `docs/material-base/fontes-oficiais/`, também fora do controle
+de versão; as referências deles estão em [`docs/FONTES.md`](docs/FONTES.md).
 
 Cada PDF tem também uma **transcrição OCR integral e literal** dos seus slides, com o
 mesmo nome do PDF, em `docs/material-base/gerados-ocr/`. Ela é usada só como conferência
@@ -94,6 +93,7 @@ completo e detalhado em [`NOTICE.md`](NOTICE.md):
 | [`docs/material-gerado/resumos/resumo-biologia-fundamental-helmintos.md`](docs/material-gerado/resumos/resumo-biologia-fundamental-helmintos.md) | Resumo esquemático da biologia fundamental (tópicos, esquemas e tabelas), com link de cada bloco para a seção completa do documento |
 | [`docs/material-gerado/resumos/resumo-parasitologia-especial-helmintos.md`](docs/material-gerado/resumos/resumo-parasitologia-especial-helmintos.md) | Resumo esquemático dos agentes (versão condensada da ficha determinística e do dicionário de gatilhos), com links para cada agente nos dois documentos |
 | [`docs/proposta-plataforma/01-visao-geral.md`](docs/proposta-plataforma/01-visao-geral.md) | Visão geral da proposta de generalizar este mecanismo para qualquer disciplina (plataforma/software futuro) |
+| [`docs/FONTES.md`](docs/FONTES.md) | Referências em ABNT de todas as fontes (as nove aulas e os documentos oficiais), com a data de consulta de cada uma |
 | [`INDICE.md`](INDICE.md) | Índice com link direto para qualquer documento do projeto |
 | [`MANUAL.md`](MANUAL.md) | Guia rápido e não técnico de como usar o material e como colaborar |
 | [`LICENSE`](LICENSE) | Texto completo da GPL-3.0 (código) |
@@ -133,41 +133,8 @@ ativá-la de novo.
 
 ## Referências
 
-Material de aula que serviu de fonte primária para o conteúdo deste projeto (ver
-[Origem do conteúdo](#origem-do-conteúdo)). Sem autoria individual identificada; local,
-editora e data desconhecidos:
-
-ANCILOSTOMÍDEOS. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado.
-Localização: `docs/material-base/ANCILOSTOMIDEOS.pdf` (arquivo de terceiros, não
-versionado neste repositório; o arquivo original recebia o nome `STRONGILOIDES.pdf`,
-renomeado por não conter nenhum conteúdo sobre *Strongyloides* — os slides de
-*Strongyloides* são os de `ESTRONGILOIDES.pdf`, abaixo).
-
-ASCARIS E ASCARIDÍASE. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado.
-Localização: `docs/material-base/ASCARIS_E_ASCARIDIASE.pdf` (arquivo de terceiros, não
-versionado neste repositório).
-
-GEOHELMINTOS. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado. Localização:
-`docs/material-base/GEOHELMINTOS.pdf` (arquivo de terceiros, não versionado neste
-repositório).
-
-HELMINTOS I. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado. Localização:
-`docs/material-base/HELMINTOS_I.pdf` (arquivo de terceiros, não versionado neste
-repositório).
-
-SCHISTOSOMA MANSONI E ESQUISTOSSOMOSE. [S.l.: s.n., s.d.]. Material de aula (slides), não
-publicado. Localização: `docs/material-base/ESQUISTOSSOMO.pdf` (arquivo de terceiros, não
-versionado neste repositório; 31 slides, que terminam na forma hepatoesplênica — não
-inclui diagnóstico, tratamento nem profilaxia).
-
-STRONGYLOIDES E ESTRONGILOIDÍASE. [S.l.: s.n., s.d.]. Material de aula (slides), não
-publicado. Localização: `docs/material-base/ESTRONGILOIDES.pdf` (arquivo de terceiros, não
-versionado neste repositório; só 3 slides: capa, taxonomia/gerações e morfologia das
-formas de vida livre).
-
-TRICHURIS E TRICURÍASE. [S.l.: s.n., s.d.]. Material de aula (slides), não publicado.
-Localização: `docs/material-base/TRICHURIS.pdf` (arquivo de terceiros, não versionado
-neste repositório; só 3 slides: capa, taxonomia/transmissão e epidemiologia).
+As referências de todas as fontes do projeto — as nove aulas e os documentos oficiais —,
+em ABNT, com a data de consulta de cada uma, estão em [`docs/FONTES.md`](docs/FONTES.md).
 
 ---
 
